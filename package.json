@@ -13,5 +13,9 @@
 		"svelte": "^3.54.0",
 		"vite": "^4.3.0"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"sqlite3": "^5.1.6",
+		"svelte-query": "^0.0.1-alpha1"
+	}
 }

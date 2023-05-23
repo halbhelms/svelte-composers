@@ -1,3 +1,4 @@
+<div>
 <h2>The Romantic Era </h2>
 
 <p>The Romantic era of Western music, spanning from around 1800 to the early 20th century, was a period marked by a significant shift in the aesthetics, composition, and emotional expression of music. As a reaction to the rationalism and restraint of the Classical period, the Romantic era embraced heightened emotion, individualism, and a strong connection to the arts and literature.</p>
@@ -10,13 +11,19 @@
 
 <p>Overall, the Romantic era of Western music was marked by a shift towards emotional depth, individual expression, and a strong connection to other art forms. The legacy of the Romantic period continues to be felt in classical music and beyond, as many of its core values and themes remain relevant in contemporary musical contexts.</p>
 
-
 <slot />
+
+</div>
 
 <style>
   p {
     font-size: 1.2rem;
     line-height: 1.5;
     width: 600px;
+  }
+
+  div {
+    padding: 20px;
+    background-color: lightblue;
   }
 </style>
